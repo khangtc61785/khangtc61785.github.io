@@ -27,8 +27,8 @@ function bursty(x, y) {
 }
 
 function randomizedConfetti() {
-    let randomX = Math.floor(Math.random() * (document.body.clientWidth - 100) + 0);
-    let randomY = Math.floor(Math.random() * (window.innerHeight - 200) + 0);
+    let randomX = Math.floor(Math.random() * (document.body.clientWidth - 200) + 0);
+    let randomY = Math.floor(Math.random() * (window.innerHeight - 300) + 0);
     const burst = new mojs.Burst({
         left: 0,
         top: 0,
