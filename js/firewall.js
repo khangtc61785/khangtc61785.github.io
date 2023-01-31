@@ -50,4 +50,4 @@ function randomizedConfetti() {
     burst.replay();
 }
 
-Splitting();
+// Splitting();
