@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body {
-    /* background-image: url("bg3.jpg"); */
+    background-image: url("bg2.jpg");
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Lobster', cursive;
-    background: #fadde1;
+    /* background: #fadde1; */
 }
 
 span {

@@ -23,7 +23,7 @@
             window.ontouchstart = function () { };
         }
     </script>
-    <script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script>
+    <!-- <script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script> -->
     <meta content="clickberry-extension-here" />
 </head>
 
@@ -90,7 +90,7 @@
 
         <!-- 5. Phần nhạc -->
         <audio id="player" autoplay loop>
-            <source src="./music.mp3" type="audio/mp3">
+            <source src="./music.mp3" type="audio/mpeg">
         </audio>
     </div>
     <script>
@@ -98,6 +98,7 @@
             window.parent.postMessage("resize", "*");
         }
         function showMessage() {
+            document.getElementById("player").play()
             // 6. Lời nhắn hiện ra khi bấm vào tên hoặc avatar
             swal({
                 title: "🎂Lời nhắn🎂", // Tiêu đề của popup
